@@ -8,7 +8,7 @@ const resultDiv = document.querySelector('.result');
 calculateBtn.addEventListener('click', function() {
     // Get the weight and height values
     const weight = parseFloat(weightInput.value);
-    const height = parseFloat(heightInput.value) / 100; // convert to meters
+    const height = parseFloat(heightInput.value) / 1; // convert to meters
 
     // Calculate the BMI
     const bmi = weight / (height * height);
